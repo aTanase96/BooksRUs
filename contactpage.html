@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="design.css">
+    <script type="text/javascript" src="validationforms.js"></script>
+    <title>Contact Us</title>
+</head>
+<header style="text-align: center; font-size: 300%;">BooksRUS</header>
+<body>
+<ul>
+    <li><a href="ass1.html">Home</a></li>
+    <li><a href="books.html">Books</a></li>
+    <li><a href="bookorderpage.html">Book Shop</a></li>
+    <li><a class="active" href="contactpage.html">Contact</a></li>
+    <li><a href="faqpage.html">FAQs</a></li>
+
+</ul>
+
+
+<div align="center">
+    <h1>Contact Us</h1>
+</div>
+<hr>
+
+<div id="moveleft">
+    <h1>Contact information:</h1>
+    123 moorabool street <br>
+    Geelong, VIC 3220 <br>
+    Tel: 03 5244 1234 <br>
+    Email: contact@BooksRUS.com.au <br>
+    <br>
+    open hour: 9:00am ~ 6:00pm Monday ~ Sunday
+</div>
+
+<div id="moveright">
+    <fieldset>
+        <h1>Contact Form</h1>
+        <form name="contact1" id="contact1" method="post"  action="sendcontact.php" onsubmit="return ValidateContact();">
+
+            Name
+            <input type="text" name="contactname" id="contactname">
+            Email address
+            <input type="email" name="contactemail" id="contactemail">
+            Subject
+            <input type="text" name="contactsubject" id="contactsubject">
+            Message
+            <textarea name="contactmessage" id="contactmessage" rows="10" cols="20"></textarea>
+            <input type="submit" value="Send the Form">
+            <br> <input type="reset" value="Clear the Form">
+        </form>
+    </fieldset>
+</div>
+
+<div class="footer" id="footer">
+
+    <p style="margin-left:10px; font-size:13px">©Deakin University, School of Information Technology. <br>
+        This web page has been developed as a student assignment for the unit SIT104: Introduction to Web Development.
+        <br>
+        Therefore it is not part of the University's authorised web site. <br>
+        DO NOT USE THE INFORMATION CONTAINED ON THIS WEB PAGE IN ANY WAY.</p>
+
+</div>
+
+
+</body>
+</html>

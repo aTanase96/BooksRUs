@@ -1,0 +1,152 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #363237;
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #2D4262;
+}
+
+.active {
+    background-color: #D09683;
+}
+
+#footer {
+    border: 1px groove #aaaaaa;
+    background: #363237;
+    color: White;
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 100px;
+    width: 100%;
+}
+
+#moveleft, #moveright {
+    height: 1000px;
+    width: 45%;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    min-width: 48%;
+    min-height: 800px;
+}
+
+#moveleft {
+    float: left;
+    margin-left: 10px;
+}
+
+#moveright {
+    float: right;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.book {
+    position: relative;
+    margin: 5px;
+    float: left;
+    clear: both;
+    width: 110%;
+    height: 150px;
+}
+
+.bookimage {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+}
+
+.bookimagebig {
+    width: 150px;
+    height: 180px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+}
+
+.book p {
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+.book p1 {
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+.book p2 {
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 220px;
+}
+
+.book h2 {
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 60px;
+}
+
+.book h3 {
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 80px;
+}
+
+input[type=number], [type=email], [type=text], select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit], [type=reset] {
+    width: 100%;
+    background-color: #363237;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover, [type=reset]:hover {
+    background-color: #2D4262;
+}
+
+legend {
+    font-size: large;
+    text-align: center;
+}

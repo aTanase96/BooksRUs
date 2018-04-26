@@ -1,0 +1,35 @@
+DROP TABLE orders;
+DROP TABLE contact;
+
+CREATE TABLE orders (
+  idorders NUMBER(11) NOT NULL,
+  orderbook1 VARCHAR(255),
+  orderbook2 VARCHAR(255),
+  orderbook3 VARCHAR(255),
+  orderbook4 VARCHAR(255),
+  orderbook5 VARCHAR(255),
+  orderbook6 VARCHAR(255),
+  ordername VARCHAR(255),
+  orderphone VARCHAR(255),
+  orderemail VARCHAR(255),
+  orderunitnr VARCHAR(45), 
+  orderstreet VARCHAR(255),
+  ordercity VARCHAR(255),
+  orderzip VARCHAR(45),
+  ordercountry VARCHAR(255), 
+  ordercardname VARCHAR(255), 
+  ordercardnr VARCHAR(45), 
+  ordermonth VARCHAR(45), 
+  orderyear VARCHAR(45), 
+  ordercvc VARCHAR(45), 
+  PRIMARY KEY (idorders)
+);
+
+CREATE TABLE contact (
+  idcontact NUMBER(11) NOT NULL,
+  contact_name VARCHAR(45),
+  contact_email VARCHAR(45),
+  contact_subject VARCHAR(45),
+  contact_message VARCHAR(255),
+  PRIMARY KEY (idcontact)
+);
